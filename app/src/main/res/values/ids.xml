@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="tx_layout_email" type="id" />
+    <item name="tx_layout_phone" type="id" />
+    <item name="tx_layout_password" type="id" />
+    <item name="tx_input_layout_password" type="id" />
+</resources>
