@@ -4,4 +4,7 @@
     <item name="tx_layout_phone" type="id" />
     <item name="tx_layout_password" type="id" />
     <item name="tx_input_layout_password" type="id" />
+    <item name="txt_register_password" type="id" />
+    <item name="users" type="id" />
+    <item name="bio_et" type="id" />
 </resources>

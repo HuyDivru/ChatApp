@@ -90,6 +90,7 @@
         android:hint="Email"
         >
         <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/txt_login_email"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="Eg.example@email.com" />
@@ -108,11 +109,13 @@
         app:endIconMode="password_toggle"
         app:hintAnimationEnabled="true"
         >
+
         <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/txt_login_password"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:inputType="textPassword"
-            />
+            tools:ignore="TouchTargetSizeCheck" />
     </com.google.android.material.textfield.TextInputLayout>
 
     <Button
@@ -129,10 +132,10 @@
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="@id/tx_input_layout_password"
-        app:layout_constraintTop_toBottomOf="@+id/textView8" />
+        app:layout_constraintTop_toBottomOf="@+id/forgotpassword" />
 
     <TextView
-        android:id="@+id/textView8"
+        android:id="@+id/forgotpassword"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
